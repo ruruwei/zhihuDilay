@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "FMDatabase.h"
 #import "FMResultSet.h"
+
+
+
 @interface savehistoryData : NSObject
 
 @property (strong, nonatomic) NSString *test;
@@ -19,4 +22,6 @@
 +(NSMutableArray *)seachHistoryData;
 +(void)deleteAllHistory;
 +(void)deleteSelectHistory:(NSString *)IDStr;
+
++(void)actionTest;
 @end
